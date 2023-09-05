@@ -47,7 +47,7 @@ Install-Module oh-my-posh -Scope CurrentUser
 如需要yes确认输入y即可
 ### 安装 Oh My Posh
 可选: 在 powershell 中输入``$PROFILE``可获得powershell 配置文件脚本的安装路径
-![An image](./assets/1.png)
+![An image](./public//1.png)
 
 1. 在 powershell 中输入``code $PROFILE``打开 powershell 的配置文件脚本，向该文件中写入如下内容: (如果没有vscode的话就运行``notepad $PROFILE``)
 ```
@@ -92,7 +92,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 生效后可以在除 powershell 外的其它程序比如 cmd、bash 上使用 oh-my-posh, 将路径
 <p>C:\Users\yeyinyeyu\AppData\Local\Programs\oh-my-posh\themes</p>
 添加到系统高级设置的系统环境变量的Path里面，注意替换用户名yeyinyeyu为自己的用户名
-<img src="./assets/6.png" alt=""> 
+<img src="./public/6.png" alt=""> 
 
 ## 配置 Oh My Posh
 ### 安装 Nerd Fonts 字体解决乱码 
@@ -101,7 +101,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
   字体<a href="https://lecloud.lenovo.com/share/2s4L8egPomwLqWdR1">网盘链接</a>，别人那里拿的🥰
 </p>
 <p>
-  字体<a href="./assets/fonts/FiraCode NF_2022-3-23.zip">本地链接</a>，自己下的🥰
+  字体<a href="./public/fonts/FiraCode NF_2022-3-23.zip">本地链接</a>，自己下的🥰
   , 二选一下载即可
 </p>
 
@@ -109,17 +109,17 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 下载解压之后在里面搜索Windows，然后ctrl+A全选后右键选择为所有用户安装即可
 :::
 
-<img src="./assets/2.png" alt=""> 
+<img src="./public/2.png" alt=""> 
 
 ### 配置 Windows Terminal
 配置 WT 的配置文件（setting.json），在 WT 设置中就可以打开 JSON 文件，找到 profiles 和 schemes，
 
-<img src="./assets/3.png" alt=""><br />
-<img src="./assets/4.png" alt=""><br />  
+<img src="./public/3.png" alt=""><br />
+<img src="./public/4.png" alt=""><br />  
 
 #### 配置 setting.json > profiles
 <br/>
-<img src="./assets/5.png" alt="">
+<img src="./public/5.png" alt="">
 
 增加以下代码(找到对应的位置增加增加的部分的代码，右侧为参考增加，左侧为添加后自动格式化后代码)
 
@@ -155,7 +155,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 
 #### 配色方案 setting.json > schemes
 <br/>
-<img src="./assets/7.png" alt="">
+<img src="./public/7.png" alt="">
 
 增加以下代码(直接在shemes键值对里的数组包对象里的最前面增加一个具名为Subliminal的配色对象即可，右侧为参考增加，左侧为添加后自动格式化后代码)
 
@@ -192,17 +192,17 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 
 #### 配置终端默认
 将默认终端应用程序由让 ``Windows决定`` 改为 ``Windows 终端``
-<img src="./assets/8.png" alt="">
+<img src="./public/8.png" alt="">
 
 ### 编辑器中的终端字体乱码
 以VSCode为例, 设置终端字体为 Nerd Fonts 字体（我这里是 FiraCode NF）
 在VSCode设置里面搜索``Terminal>Integrated:Font Family``将值改为你安装的字体即可(这里是``FiraCode NF``)
 
-<img src="./assets/9.png" alt="">
+<img src="./public/9.png" alt="">
 
 ## 成果展示
 ### VSCode 终端
-<p><img src="./assets/10.png" alt=""></p>
+<p><img src="./public/10.png" alt=""></p>
 
 ### PowerShell 终端
 ::: tip
@@ -221,4 +221,4 @@ colortool -s
 colortool -c
 ```
 
-<p><img src="./assets/11.png" alt=""></p>
+<p><img src="./public/11.png" alt=""></p>
