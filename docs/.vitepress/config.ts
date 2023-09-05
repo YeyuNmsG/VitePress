@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/VitePress/',
   title: "夜语の秘密小屋",
   description: "夜语の的秘密结社",
-  base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
